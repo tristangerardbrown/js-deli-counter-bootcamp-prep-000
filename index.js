@@ -18,7 +18,12 @@ function nowServing(katzDeli) {
 
 function currentLine (katzDeli) {
   var i = 0 
-  while i ===
+  while (i < katzDeli.length) {
+    i++;
+  }
+  if (katzDeli.length > 0) {
+    return 
+  }
 }
 
 
